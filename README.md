@@ -1,6 +1,18 @@
 # ARVRVanguard
 Leading the charge in augmented and virtual reality innovations.
 
+# Vision and Mission 
+
+Vision:
+
+"To redefine reality through immersive technology, enhancing human experiences and unlocking new possibilities in augmented and virtual worlds."
+
+Mission:
+
+"At ARVRVanguard, our mission is to lead the charge in augmented and virtual reality innovations. We are dedicated to pushing the boundaries of technology to create immersive, user-centric experiences that inspire, educate, entertain, and connect people in ways previously unimaginable. We are committed to fostering a culture of continuous innovation, collaboration, and responsible development, ensuring that our advancements positively impact individuals, industries, and society as a whole."
+
+# App Code 
+
 ```markdown
 # Interactive Virtual Reality Experience
 
