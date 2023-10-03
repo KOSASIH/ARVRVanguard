@@ -306,3 +306,104 @@ Enjoy creating interactive augmented reality experiences!
 ```
 
 This markdown code generator provides instructions for creating buttons, menus, and markers within an augmented reality environment. It also includes instructions for integrating these interactive elements into existing augmented reality projects.
+
+To implement a markdown code parser for interpreting and rendering 360-degree images and videos within virtual reality environments, you can use the following code:
+
+```markdown
+## 360-Degree Media Integration
+
+To incorporate 360-degree images and videos into your virtual reality application, follow these steps:
+
+1. Place your 360-degree media files (equirectangular images or standard video files) in the appropriate directory of your project.
+
+2. Add the following code snippet to the desired location in your markdown file, where `path/to/media` is the relative path to your media file:
+
+   ```markdown
+   ![360-degree media](path/to/media)
+   ```
+
+3. Save the markdown file and convert it to the desired format (e.g., HTML) using a markdown-to-HTML converter.
+
+4. Integrate the converted HTML file into your virtual reality application using your preferred framework or library.
+
+5. Ensure that your virtual reality environment supports rendering 360-degree media. This typically involves configuring the camera or viewport to provide a panoramic view.
+
+6. Run your virtual reality application and navigate to the location where you added the 360-degree media code snippet. You should now be able to view and interact with the 360-degree image or video within the virtual reality environment.
+
+Note: Depending on your virtual reality platform or framework, you may need to use specific libraries or APIs to enable 360-degree media support. Refer to the documentation of your chosen platform for more detailed instructions.
+
+```
+
+This markdown code provides instructions for incorporating 360-degree images and videos into virtual reality applications. Remember to replace `path/to/media` with the actual relative path to your media file.
+
+To create a markdown code library for generating haptic feedback in virtual reality experiences, you can use the following code structure:
+
+```markdown
+# Haptic Feedback Library
+
+## Introduction
+The Haptic Feedback Library is a code library that provides functions for simulating tactile sensations in virtual reality experiences. This library allows developers to incorporate haptic feedback features into their virtual reality projects, providing a more immersive and interactive user experience.
+
+## Installation
+To use the Haptic Feedback Library in your virtual reality project, follow these steps:
+
+1. Download the Haptic Feedback Library code files from [GitHub repository](https://github.com/your-username/haptic-feedback-library).
+2. Add the library files to your project directory.
+
+## Usage
+To generate haptic feedback in your virtual reality experience, follow these guidelines:
+
+1. Import the Haptic Feedback Library module into your project.
+   ```javascript
+   import { HapticFeedback } from 'haptic-feedback-library';
+   ```
+
+2. Initialize the Haptic Feedback object.
+   ```javascript
+   const haptic = new HapticFeedback();
+   ```
+
+3. Trigger haptic feedback using the provided functions.
+   ```javascript
+   // Example: Trigger a vibration effect
+   haptic.vibrate();
+
+   // Example: Trigger a force feedback effect
+   haptic.forceFeedback(0.5);
+   ```
+
+4. Customize haptic feedback parameters as needed.
+   ```javascript
+   // Example: Set vibration intensity
+   haptic.setVibrationIntensity(0.8);
+
+   // Example: Set force feedback duration
+   haptic.setForceFeedbackDuration(1000);
+   ```
+
+## Examples
+Here are some example code snippets demonstrating the usage of the Haptic Feedback Library:
+
+### Example 1: Vibration Effect
+```javascript
+import { HapticFeedback } from 'haptic-feedback-library';
+
+const haptic = new HapticFeedback();
+haptic.vibrate();
+```
+
+### Example 2: Force Feedback Effect
+```javascript
+import { HapticFeedback } from 'haptic-feedback-library';
+
+const haptic = new HapticFeedback();
+haptic.forceFeedback(0.5);
+```
+
+## Conclusion
+The Haptic Feedback Library provides an easy-to-use solution for incorporating haptic feedback into virtual reality experiences. By following the provided guidelines and examples, developers can enhance the immersion and interactivity of their virtual reality projects.
+
+For more information and detailed documentation, refer to the [Haptic Feedback Library GitHub repository](https://github.com/KOSASIH/haptic-feedback-library).
+```
+
+Note: The above code is written in Markdown format and is intended to provide a template for generating the documentation for the Haptic Feedback Library. It assumes that you have already implemented the necessary code for haptic feedback in your virtual reality project.
